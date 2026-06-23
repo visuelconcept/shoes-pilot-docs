@@ -18,20 +18,22 @@ extra_css:
 theme:
   name: material
   language: fr
-  logo: assets/logo.svg
-  favicon: assets/favicon.svg
+  logo: assets/siemens-logo-white.svg
+  favicon: assets/favicon.ico
+  font:
+    text: Segoe UI
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: teal
+      primary: custom   # Siemens Petrol (#009999) — défini dans extra.css
+      accent: custom    # Siemens cyan (#00bde3)
       toggle:
         icon: material/weather-night
         name: Passer en thème sombre
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: teal
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Passer en thème clair

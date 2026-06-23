@@ -1,4 +1,69 @@
-/* Captures d'écran : cadre léger, coins arrondis, ombre douce */
+/* ===========================================================================
+   Thème Siemens IX — aligné sur l'application Shoes Pilot
+   Petrol #009999 (primaire), Cyan #00bde3 (accent), sombre Siemens #000028.
+   Statuts : success #44cc00, warning #ffbb00, alarm #ff2453, info #357fff.
+   =========================================================================== */
+
+/* --- Thème clair : header petrol, comme l'écran de connexion de l'app --- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #009999;
+  --md-primary-fg-color--light: #00b3b3;
+  --md-primary-fg-color--dark: #007d7d;
+  --md-accent-fg-color: #008f8f;
+  --md-typeset-a-color: #007d7d;
+}
+
+/* --- Thème sombre : fond Siemens #000028, header navy, accents cyan --- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #001b3a;
+  --md-primary-fg-color--light: #00294f;
+  --md-primary-fg-color--dark: #001026;
+  --md-accent-fg-color: #00bde3;
+  --md-typeset-a-color: #33d6f0;
+  --md-default-bg-color: #000028;
+  --md-default-bg-color--light: #0b0b34;
+  --md-default-bg-color--lighter: #15154a;
+  --md-default-bg-color--lightest: #1d1d57;
+  --md-code-bg-color: #12123a;
+  --md-footer-bg-color: #00001c;
+}
+
+/* ===========================================================================
+   Co-branding ASF 4.0 + Siemens (bannière d'accueil)
+   =========================================================================== */
+.cobrand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0.5rem 0 2.2rem;
+  text-align: center;
+}
+.cobrand img.asf {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 40, 0.18);
+}
+.cobrand .powered {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.cobrand .powered img {
+  height: 18px;
+  width: auto;
+  vertical-align: middle;
+}
+
+/* ===========================================================================
+   Captures d'écran : cadre léger, coins arrondis, ombre douce
+   =========================================================================== */
 .screenshot img,
 img.screenshot {
   border: 1px solid var(--md-default-fg-color--lightest);
@@ -33,6 +98,6 @@ figure > figcaption {
   padding: 0.15rem 0.55rem;
   border-radius: 999px;
   background: var(--md-primary-fg-color);
-  color: var(--md-primary-bg-color);
+  color: #ffffff;
   margin-right: 0.35rem;
 }

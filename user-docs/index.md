@@ -1,3 +1,10 @@
+<div class="cobrand" markdown>
+![ASF 4.0 — Advanced Shoe Factory](assets/asf40-logo.jpg){ .asf }
+<span class="powered">Propulsé par&nbsp;
+![Siemens](assets/siemens-logo-petrol.svg#only-light){ width="68" }![Siemens](assets/siemens-logo-white.svg#only-dark){ width="68" }
+&nbsp;Industrial Edge</span>
+</div>
+
 # Bienvenue dans Shoes Pilot
 
 **Shoes Pilot** est le système de pilotage de production (MES) des usines de

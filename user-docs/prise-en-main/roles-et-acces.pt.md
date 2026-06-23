@@ -40,13 +40,5 @@ e as ações autorizadas.
     palavra-passe** (token válido por 24 h). Os operadores iniciam sessão com
     **crachá** no terminal (token válido por 12 h).
 
-## Contas de demonstração
-
-| Identificador | Palavra-passe | Função |
-|-------------|--------------|------|
-| `admin` | `demo123` | Administrador |
-| `functional` | `demo123` | Administrador funcional |
-| `superviseur` | `demo123` | Supervisor |
-| `operateur` | `demo123` | Operador |
-
-Crachás de operadores de demonstração: `OP001` a `OP008`.
+!!! note "Credenciais"
+    As suas credenciais de início de sessão são fornecidas pelo seu administrador.

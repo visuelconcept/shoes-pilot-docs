@@ -40,13 +40,5 @@ et les actions autorisées.
     passe** (jeton valable 24 h). Les opérateurs se connectent par **badge**
     sur le terminal (jeton valable 12 h).
 
-## Comptes de démonstration
-
-| Identifiant | Mot de passe | Rôle |
-|-------------|--------------|------|
-| `admin` | `demo123` | Administrateur |
-| `functional` | `demo123` | Admin fonctionnel |
-| `superviseur` | `demo123` | Superviseur |
-| `operateur` | `demo123` | Opérateur |
-
-Badges opérateurs de démonstration : `OP001` à `OP008`.
+!!! note "Identifiants"
+    Vos identifiants de connexion vous sont fournis par votre administrateur.
