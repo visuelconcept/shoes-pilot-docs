@@ -5,10 +5,6 @@ site_description: >-
 site_author: Visuel Concept
 site_url: https://visuelconcept.github.io/shoes-pilot-docs/
 
-repo_name: visuelconcept/shoes-pilot-docs
-repo_url: https://github.com/visuelconcept/shoes-pilot-docs
-edit_uri: edit/main/user-docs/
-
 docs_dir: user-docs
 copyright: © Visuel Concept — Shoes Pilot
 
@@ -46,7 +42,6 @@ theme:
     - toc.follow
     - search.suggest
     - search.highlight
-    - content.action.edit
     - content.code.copy
 
 markdown_extensions:
@@ -57,7 +52,11 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
@@ -78,9 +77,11 @@ plugins:
           name: Français
           default: true
           build: true
+          site_name: Shoes Pilot — Guide utilisateur
         - locale: pt
           name: Português
           build: true
+          site_name: Shoes Pilot — Guia do utilizador
           nav_translations:
             Accueil: Início
             Prise en main: Primeiros passos

@@ -4,7 +4,20 @@
    Statuts : success #44cc00, warning #ffbb00, alarm #ff2453, info #357fff.
    =========================================================================== */
 
-/* --- Thème clair : header petrol, comme l'écran de connexion de l'app --- */
+/* En-tête type IxApplicationHeader : barre navy Siemens (#000028) dans les
+   deux modes, comme l'application. Le petrol reste l'accent (liens, badges). */
+.md-header,
+.md-tabs {
+  background-color: #000028;
+  color: #ffffff;
+}
+.md-header__title,
+.md-header [data-md-component="palette"] .md-icon,
+.md-tabs__link {
+  color: #ffffff;
+}
+
+/* --- Thème clair : accents petrol (#009999) comme l'app --- */
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #009999;
   --md-primary-fg-color--light: #00b3b3;
