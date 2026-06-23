@@ -5,34 +5,20 @@
 &nbsp;Industrial Edge</span>
 </div>
 
-# Bem-vindo ao Shoes Pilot
+# Bem-vindo
 
-O **Shoes Pilot** é o sistema de pilotagem de produção (MES) das fábricas de
-calçado: acompanha cada par desde a receção da ordem de fabrico até à
-embalagem final, gere as rejeições e as reintegrações e alimenta painéis de
-controlo em tempo real.
+Este guia acompanha-o, **ecrã a ecrã**, na utilização diária do Shoes Pilot.
+Escolha a sua função para ir direto ao essencial.
 
-Este guia está organizado por **percursos**: cada página descreve um caso de
-utilização de ponta a ponta, ilustrado com capturas de ecrã reais da aplicação.
-
-## Por onde começar?
+## :material-account-hard-hat: Operador
 
 <div class="grid cards" markdown>
-
--   :material-account-key: **Funções e acessos**
-
-    ---
-
-    Compreender os quatro perfis (Administrador, Administrador funcional,
-    Supervisor, Operador) e o que cada um pode fazer.
-
-    [:octicons-arrow-right-24: Funções e acessos](prise-en-main/roles-et-acces.md)
 
 -   :material-login: **Iniciar sessão**
 
     ---
 
-    Início de sessão por identificador ou por crachá no terminal tátil.
+    Início de sessão por crachá no terminal tátil.
 
     [:octicons-arrow-right-24: Iniciar sessão](prise-en-main/se-connecter.md)
 
@@ -40,38 +26,53 @@ utilização de ponta a ponta, ilustrado com capturas de ecrã reais da aplicaç
 
     ---
 
-    O percurso diário do operador: ler um contentor, iniciar, validar.
+    Ler um contentor, iniciar, validar.
 
-    [:octicons-arrow-right-24: Registo do operador](parcours/operateur-pointage.md)
+    [:octicons-arrow-right-24: Registo](parcours/operateur-pointage.md)
 
 -   :material-alert-octagon: **Declarar uma rejeição**
 
     ---
 
-    Esquerdo, direito ou par completo — e a recuperação automática do
-    sapato órfão.
+    Esquerdo, direito ou par — e a recuperação do sapato órfão.
 
-    [:octicons-arrow-right-24: Declaração de rejeição](parcours/declaration-rebut.md)
+    [:octicons-arrow-right-24: Rejeição](parcours/declaration-rebut.md)
 
--   :material-monitor-dashboard: **Supervisionar a produção**
+</div>
+
+## :material-monitor-dashboard: Supervisor
+
+<div class="grid cards" markdown>
+
+-   :material-chart-line: **Supervisionar a produção**
 
     ---
 
-    Os painéis de controlo por operação, equipa, modelo, linha e operador.
+    Acompanhar os painéis de controlo por operação, equipa, modelo, linha e
+    operador.
 
     [:octicons-arrow-right-24: Supervisão](parcours/supervision.md)
 
 </div>
 
-## A quem se destina este guia
+## :material-cog: Administração
 
-| Perfil | O que vai encontrar |
-|--------|-------------------------|
-| **Operador** | Percurso de registo, declaração de rejeição, reintegração no terminal tátil |
-| **Supervisor** | Leitura dos painéis de controlo, acompanhamento das linhas e dos operadores |
-| **Administrador** | Configuração das OF, operações, linhas, postos e etiquetas |
+<div class="grid cards" markdown>
 
-!!! tip "As capturas de ecrã estão sempre atualizadas"
-    As imagens deste guia são geradas automaticamente a partir da
-    aplicação em funcionamento (testes end-to-end Playwright). Refletem,
-    portanto, o estado real do produto em cada publicação.
+-   :material-clipboard-list: **Configurar uma OF**
+
+    ---
+
+    Ordens de fabrico, sub-OF e dados de referência.
+
+    [:octicons-arrow-right-24: Configuração](parcours/configuration-of.md)
+
+-   :material-account-key: **Funções e acessos**
+
+    ---
+
+    Quem pode fazer o quê na aplicação.
+
+    [:octicons-arrow-right-24: Funções e acessos](prise-en-main/roles-et-acces.md)
+
+</div>

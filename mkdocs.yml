@@ -86,18 +86,14 @@ plugins:
             Accueil: Início
             Prise en main: Primeiros passos
             Parcours: Percursos
-            Aide: Ajuda
 
 nav:
   - Accueil: index.md
   - Prise en main:
-      - prise-en-main/roles-et-acces.md
       - prise-en-main/se-connecter.md
+      - prise-en-main/roles-et-acces.md
   - Parcours:
       - parcours/operateur-pointage.md
       - parcours/declaration-rebut.md
       - parcours/supervision.md
       - parcours/configuration-of.md
-  - Aide:
-      - aide/glossaire.md
-      - aide/faq.md
