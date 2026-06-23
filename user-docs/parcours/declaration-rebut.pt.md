@@ -1,14 +1,20 @@
 # Declarar uma sucata
 
-<span class="role-badge">Operador</span>
+<span class="role-badge">Supervisor</span>
 
-Durante o apontamento, assinale as peças não conformes. Três tipos:
+Regra geral, o **supervisor** retoma a operação em curso no terminal para
+registar as rejeições. Três tipos:
 
 | Tipo | Código | Significado |
 |------|:----:|---------------|
 | Par | **P** | Ambos os sapatos estão defeituosos |
 | Esquerdo | **G** | Esquerdo defeituoso → o direito vai para o stock de reintegração |
 | Direito | **D** | Direito defeituoso → o esquerdo vai para o stock de reintegração |
+
+!!! note "Quem declara as rejeições?"
+    Por defeito, só o **supervisor** (ou o admin) regista as rejeições. Nas
+    operações configuradas para tal, o **operador** pode declará-las ele próprio,
+    diretamente a partir do seu apontamento.
 
 ## Adicionar a sucata
 

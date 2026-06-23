@@ -85,15 +85,19 @@ plugins:
           nav_translations:
             Accueil: Início
             Prise en main: Primeiros passos
-            Parcours: Percursos
+            Opérateur: Operador
+            Superviseur: Supervisor
+            Administration: Administração
 
 nav:
   - Accueil: index.md
   - Prise en main:
       - prise-en-main/se-connecter.md
       - prise-en-main/roles-et-acces.md
-  - Parcours:
+  - Opérateur:
       - parcours/operateur-pointage.md
+  - Superviseur:
       - parcours/declaration-rebut.md
       - parcours/supervision.md
+  - Administration:
       - parcours/configuration-of.md

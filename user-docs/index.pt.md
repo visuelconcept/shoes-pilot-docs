@@ -8,9 +8,9 @@
 # Bem-vindo
 
 Este guia acompanha-o, **ecrã a ecrã**, na utilização diária do Shoes Pilot.
-Escolha a sua função para ir direto ao essencial.
+Cada secção corresponde a uma função: vá diretamente à sua.
 
-## :material-account-hard-hat: Operador
+## :material-login: Primeiros passos
 
 <div class="grid cards" markdown>
 
@@ -18,9 +18,23 @@ Escolha a sua função para ir direto ao essencial.
 
     ---
 
-    Início de sessão por crachá no terminal tátil.
+    Por crachá (operador) ou por identificador (responsável).
 
     [:octicons-arrow-right-24: Iniciar sessão](prise-en-main/se-connecter.md)
+
+-   :material-account-key: **Funções e acessos**
+
+    ---
+
+    Quem pode fazer o quê na aplicação.
+
+    [:octicons-arrow-right-24: Funções e acessos](prise-en-main/roles-et-acces.md)
+
+</div>
+
+## :material-account-hard-hat: Operador
+
+<div class="grid cards" markdown>
 
 -   :material-gesture-tap-button: **Registar uma operação**
 
@@ -30,6 +44,12 @@ Escolha a sua função para ir direto ao essencial.
 
     [:octicons-arrow-right-24: Registo](parcours/operateur-pointage.md)
 
+</div>
+
+## :material-monitor-dashboard: Supervisor
+
+<div class="grid cards" markdown>
+
 -   :material-alert-octagon: **Declarar uma rejeição**
 
     ---
@@ -38,18 +58,11 @@ Escolha a sua função para ir direto ao essencial.
 
     [:octicons-arrow-right-24: Rejeição](parcours/declaration-rebut.md)
 
-</div>
-
-## :material-monitor-dashboard: Supervisor
-
-<div class="grid cards" markdown>
-
 -   :material-chart-line: **Supervisionar a produção**
 
     ---
 
-    Acompanhar os painéis de controlo por operação, equipa, modelo, linha e
-    operador.
+    Painéis de controlo por operação, equipa, modelo, linha e operador.
 
     [:octicons-arrow-right-24: Supervisão](parcours/supervision.md)
 
@@ -66,13 +79,5 @@ Escolha a sua função para ir direto ao essencial.
     Ordens de fabrico, sub-OF e dados de referência.
 
     [:octicons-arrow-right-24: Configuração](parcours/configuration-of.md)
-
--   :material-account-key: **Funções e acessos**
-
-    ---
-
-    Quem pode fazer o quê na aplicação.
-
-    [:octicons-arrow-right-24: Funções e acessos](prise-en-main/roles-et-acces.md)
 
 </div>

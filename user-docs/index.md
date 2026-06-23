@@ -8,9 +8,9 @@
 # Bienvenue
 
 Ce guide vous accompagne, **écran par écran**, dans l'utilisation de Shoes Pilot
-au quotidien. Choisissez votre rôle pour aller droit à l'essentiel.
+au quotidien. Chaque section correspond à un rôle : allez droit à la vôtre.
 
-## :material-account-hard-hat: Opérateur
+## :material-login: Prise en main
 
 <div class="grid cards" markdown>
 
@@ -18,9 +18,23 @@ au quotidien. Choisissez votre rôle pour aller droit à l'essentiel.
 
     ---
 
-    Connexion par badge sur le terminal tactile.
+    Par badge (opérateur) ou par identifiant (encadrant).
 
     [:octicons-arrow-right-24: Se connecter](prise-en-main/se-connecter.md)
+
+-   :material-account-key: **Rôles & accès**
+
+    ---
+
+    Qui peut faire quoi dans l'application.
+
+    [:octicons-arrow-right-24: Rôles & accès](prise-en-main/roles-et-acces.md)
+
+</div>
+
+## :material-account-hard-hat: Opérateur
+
+<div class="grid cards" markdown>
 
 -   :material-gesture-tap-button: **Pointer une opération**
 
@@ -30,6 +44,12 @@ au quotidien. Choisissez votre rôle pour aller droit à l'essentiel.
 
     [:octicons-arrow-right-24: Pointage](parcours/operateur-pointage.md)
 
+</div>
+
+## :material-monitor-dashboard: Superviseur
+
+<div class="grid cards" markdown>
+
 -   :material-alert-octagon: **Déclarer un rebut**
 
     ---
@@ -38,18 +58,11 @@ au quotidien. Choisissez votre rôle pour aller droit à l'essentiel.
 
     [:octicons-arrow-right-24: Rebut](parcours/declaration-rebut.md)
 
-</div>
-
-## :material-monitor-dashboard: Superviseur
-
-<div class="grid cards" markdown>
-
 -   :material-chart-line: **Superviser la production**
 
     ---
 
-    Suivre les tableaux de bord par opération, équipe, modèle, ligne et
-    opérateur.
+    Tableaux de bord par opération, équipe, modèle, ligne et opérateur.
 
     [:octicons-arrow-right-24: Supervision](parcours/supervision.md)
 
@@ -66,13 +79,5 @@ au quotidien. Choisissez votre rôle pour aller droit à l'essentiel.
     Ordres de fabrication, sous-OF et référentiels métier.
 
     [:octicons-arrow-right-24: Configuration](parcours/configuration-of.md)
-
--   :material-account-key: **Rôles & accès**
-
-    ---
-
-    Qui peut faire quoi dans l'application.
-
-    [:octicons-arrow-right-24: Rôles & accès](prise-en-main/roles-et-acces.md)
 
 </div>

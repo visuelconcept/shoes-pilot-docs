@@ -1,14 +1,20 @@
 # Déclarer un rebut
 
-<span class="role-badge">Opérateur</span>
+<span class="role-badge">Superviseur</span>
 
-Pendant le pointage, signalez les pièces non conformes. Trois types :
+En général, le **superviseur** reprend l'opération en cours sur le terminal pour
+saisir les rebuts. Trois types :
 
 | Type | Code | Signification |
 |------|:----:|---------------|
 | Paire | **P** | Les deux chaussures sont défectueuses |
 | Gauche | **G** | Gauche défectueuse → la droite part au stock de réintégration |
 | Droite | **D** | Droite défectueuse → la gauche part au stock de réintégration |
+
+!!! note "Qui déclare les rebuts ?"
+    Par défaut, seul le **superviseur** (ou l'admin) saisit les rebuts. Sur les
+    opérations configurées en conséquence, l'**opérateur** peut les déclarer
+    lui-même, directement depuis son pointage.
 
 ## Ajouter le rebut
 
