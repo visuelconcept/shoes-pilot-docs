@@ -1,0 +1,100 @@
+site_name: Shoes Pilot — Guide utilisateur
+site_description: >-
+  Manuel utilisateur de Shoes Pilot, le MES de suivi de production pour usines
+  de chaussures. Parcours illustrés pour opérateurs, superviseurs et administrateurs.
+site_author: Visuel Concept
+site_url: https://visuelconcept.github.io/shoes-pilot-docs/
+
+repo_name: visuelconcept/shoes-pilot-docs
+repo_url: https://github.com/visuelconcept/shoes-pilot-docs
+edit_uri: edit/main/user-docs/
+
+docs_dir: user-docs
+copyright: © Visuel Concept — Shoes Pilot
+
+extra_css:
+  - assets/extra.css
+
+theme:
+  name: material
+  language: fr
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Passer en thème sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en thème clair
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      lang:
+        - fr
+        - pt
+  - glightbox  # zoom plein écran sur les captures d'écran
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: fr
+          name: Français
+          default: true
+          build: true
+        - locale: pt
+          name: Português
+          build: true
+          nav_translations:
+            Accueil: Início
+            Prise en main: Primeiros passos
+            Parcours: Percursos
+            Aide: Ajuda
+
+nav:
+  - Accueil: index.md
+  - Prise en main:
+      - prise-en-main/roles-et-acces.md
+      - prise-en-main/se-connecter.md
+  - Parcours:
+      - parcours/operateur-pointage.md
+      - parcours/declaration-rebut.md
+      - parcours/supervision.md
+      - parcours/configuration-of.md
+  - Aide:
+      - aide/glossaire.md
+      - aide/faq.md

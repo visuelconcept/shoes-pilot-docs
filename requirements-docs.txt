@@ -1,0 +1,6 @@
+# Dépendances du site de documentation (MkDocs Material)
+# Installation : pip install -r requirements-docs.txt
+# Build local  : mkdocs serve   (puis http://127.0.0.1:8000)
+mkdocs-material==9.5.39
+mkdocs-glightbox==0.4.0
+mkdocs-static-i18n==1.2.3
