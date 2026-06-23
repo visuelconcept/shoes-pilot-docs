@@ -99,5 +99,9 @@ nav:
   - Superviseur:
       - parcours/declaration-rebut.md
       - parcours/supervision.md
+      - parcours/ajouter-operateur.md
   - Administration:
       - parcours/configuration-of.md
+      - parcours/template-etiquette.md
+      - parcours/export-productivite.md
+      - parcours/ajouter-poste.md
