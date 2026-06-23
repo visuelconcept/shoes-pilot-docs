@@ -36,13 +36,21 @@ au quotidien. Chaque section correspond à un rôle : allez droit à la vôtre.
 
 <div class="grid cards" markdown>
 
--   :material-gesture-tap-button: **Pointer une opération**
+-   :material-play-circle: **Démarrer une opération**
 
     ---
 
-    Scanner un bac, démarrer, valider.
+    Badge, scan du bac, démarrage.
 
-    [:octicons-arrow-right-24: Pointage](parcours/operateur-pointage.md)
+    [:octicons-arrow-right-24: Démarrer](operateur/demarrer-operation.md)
+
+-   :material-check-circle: **Terminer une opération**
+
+    ---
+
+    Badge, sélection de l'opération, validation.
+
+    [:octicons-arrow-right-24: Terminer](operateur/terminer-operation.md)
 
 </div>
 
@@ -50,13 +58,21 @@ au quotidien. Chaque section correspond à un rôle : allez droit à la vôtre.
 
 <div class="grid cards" markdown>
 
+-   :material-rocket-launch: **Lancer la production d'un OF**
+
+    ---
+
+    Démarrer l'OF, imprimer les étiquettes de bac.
+
+    [:octicons-arrow-right-24: Lancer](superviseur/lancer-production.md)
+
 -   :material-alert-octagon: **Déclarer un rebut**
 
     ---
 
     Gauche, droite ou paire — et la récupération de l'orpheline.
 
-    [:octicons-arrow-right-24: Rebut](parcours/declaration-rebut.md)
+    [:octicons-arrow-right-24: Rebut](superviseur/declaration-rebut.md)
 
 -   :material-chart-line: **Superviser la production**
 
@@ -64,7 +80,7 @@ au quotidien. Chaque section correspond à un rôle : allez droit à la vôtre.
 
     Tableaux de bord par opération, équipe, modèle, ligne et opérateur.
 
-    [:octicons-arrow-right-24: Supervision](parcours/supervision.md)
+    [:octicons-arrow-right-24: Supervision](superviseur/supervision.md)
 
 </div>
 
@@ -72,12 +88,28 @@ au quotidien. Chaque section correspond à un rôle : allez droit à la vôtre.
 
 <div class="grid cards" markdown>
 
--   :material-clipboard-list: **Configurer un OF**
+-   :material-tag-text: **Ajouter un template d'étiquette**
 
     ---
 
-    Ordres de fabrication, sous-OF et référentiels métier.
+    Modèle d'étiquette et impression par opération.
 
-    [:octicons-arrow-right-24: Configuration](parcours/configuration-of.md)
+    [:octicons-arrow-right-24: Étiquettes](administration/template-etiquette.md)
+
+-   :material-file-export: **Exporter les rapports de productivité**
+
+    ---
+
+    Données par opérateur, export CSV.
+
+    [:octicons-arrow-right-24: Export](administration/export-productivite.md)
+
+-   :material-account-wrench: **Ajouter une workstation**
+
+    ---
+
+    Créer et configurer un poste de travail.
+
+    [:octicons-arrow-right-24: Workstation](administration/ajouter-poste.md)
 
 </div>

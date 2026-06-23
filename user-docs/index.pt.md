@@ -36,13 +36,21 @@ Cada secção corresponde a uma função: vá diretamente à sua.
 
 <div class="grid cards" markdown>
 
--   :material-gesture-tap-button: **Registar uma operação**
+-   :material-play-circle: **Iniciar uma operação**
 
     ---
 
-    Ler um contentor, iniciar, validar.
+    Crachá, leitura do caixote, início.
 
-    [:octicons-arrow-right-24: Registo](parcours/operateur-pointage.md)
+    [:octicons-arrow-right-24: Iniciar](operateur/demarrer-operation.md)
+
+-   :material-check-circle: **Terminar uma operação**
+
+    ---
+
+    Crachá, seleção da operação, validação.
+
+    [:octicons-arrow-right-24: Terminar](operateur/terminer-operation.md)
 
 </div>
 
@@ -50,13 +58,21 @@ Cada secção corresponde a uma função: vá diretamente à sua.
 
 <div class="grid cards" markdown>
 
+-   :material-rocket-launch: **Lançar a produção de um OF**
+
+    ---
+
+    Iniciar o OF, imprimir as etiquetas de caixote.
+
+    [:octicons-arrow-right-24: Lançar](superviseur/lancer-production.md)
+
 -   :material-alert-octagon: **Declarar uma rejeição**
 
     ---
 
     Esquerdo, direito ou par — e a recuperação do sapato órfão.
 
-    [:octicons-arrow-right-24: Rejeição](parcours/declaration-rebut.md)
+    [:octicons-arrow-right-24: Rejeição](superviseur/declaration-rebut.md)
 
 -   :material-chart-line: **Supervisionar a produção**
 
@@ -64,7 +80,7 @@ Cada secção corresponde a uma função: vá diretamente à sua.
 
     Painéis de controlo por operação, equipa, modelo, linha e operador.
 
-    [:octicons-arrow-right-24: Supervisão](parcours/supervision.md)
+    [:octicons-arrow-right-24: Supervisão](superviseur/supervision.md)
 
 </div>
 
@@ -72,12 +88,28 @@ Cada secção corresponde a uma função: vá diretamente à sua.
 
 <div class="grid cards" markdown>
 
--   :material-clipboard-list: **Configurar uma OF**
+-   :material-tag-text: **Adicionar um template de etiqueta**
 
     ---
 
-    Ordens de fabrico, sub-OF e dados de referência.
+    Modelo de etiqueta e impressão por operação.
 
-    [:octicons-arrow-right-24: Configuração](parcours/configuration-of.md)
+    [:octicons-arrow-right-24: Etiquetas](administration/template-etiquette.md)
+
+-   :material-file-export: **Exportar os relatórios de produtividade**
+
+    ---
+
+    Dados por operador, exportação CSV.
+
+    [:octicons-arrow-right-24: Exportação](administration/export-productivite.md)
+
+-   :material-account-wrench: **Adicionar um posto de trabalho**
+
+    ---
+
+    Criar e configurar um posto de trabalho.
+
+    [:octicons-arrow-right-24: Posto](administration/ajouter-poste.md)
 
 </div>

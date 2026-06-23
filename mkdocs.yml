@@ -95,13 +95,14 @@ nav:
       - prise-en-main/se-connecter.md
       - prise-en-main/roles-et-acces.md
   - Opérateur:
-      - parcours/operateur-pointage.md
+      - operateur/demarrer-operation.md
+      - operateur/terminer-operation.md
   - Superviseur:
-      - parcours/declaration-rebut.md
-      - parcours/supervision.md
-      - parcours/ajouter-operateur.md
+      - superviseur/lancer-production.md
+      - superviseur/declaration-rebut.md
+      - superviseur/supervision.md
+      - superviseur/ajouter-operateur.md
   - Administration:
-      - parcours/configuration-of.md
-      - parcours/template-etiquette.md
-      - parcours/export-productivite.md
-      - parcours/ajouter-poste.md
+      - administration/template-etiquette.md
+      - administration/export-productivite.md
+      - administration/ajouter-poste.md

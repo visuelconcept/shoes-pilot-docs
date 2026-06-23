@@ -17,8 +17,9 @@ requirements-docs.txt  Dépendances Python (MkDocs Material, plugins)
 user-docs/             Pages du site
   index.md             Accueil  (.pt.md = version portugaise)
   prise-en-main/       Rôles & accès, connexion
-  parcours/            Cas d'usage illustrés (pointage, rebut, supervision, config OF)
-  aide/                Glossaire, FAQ
+  operateur/           Parcours opérateur (pointage)
+  superviseur/         Parcours superviseur (rebut, supervision, opérateurs)
+  administration/      Parcours admin (étiquettes, export, postes)
   assets/screenshots/  Captures d'écran (fr/ et pt/)
 ```
 
