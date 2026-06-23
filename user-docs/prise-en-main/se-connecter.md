@@ -1,51 +1,41 @@
 # Se connecter
 
-Deux modes de connexion selon le profil : **identifiant/mot de passe** pour les
-encadrants, **badge** pour les opérateurs sur le terminal.
-
-## Connexion par identifiant (Admin, Superviseur)
-
-1. Ouvrez l'application dans votre navigateur.
-2. Saisissez votre **identifiant** et votre **mot de passe**.
-3. Cliquez sur **Se connecter**.
-
-<figure class="screenshot" markdown>
-![Écran de connexion par identifiant](../assets/screenshots/fr/login.png)
-<figcaption>Écran de connexion par identifiant et mot de passe</figcaption>
-</figure>
-
-Vous arrivez sur le **tableau de bord** correspondant à votre rôle.
-
-<figure class="screenshot" markdown>
-![Tableau de bord après connexion](../assets/screenshots/fr/login-dashboard.png)
-<figcaption>Tableau de bord global affiché après connexion</figcaption>
-</figure>
-
-## Connexion par badge (Opérateur)
+## Opérateur — par badge
 
 Sur le terminal tactile :
 
-1. Cliquez sur **Connexion par badge**.
-2. Sélectionnez votre **poste de travail** (selon la configuration de la borne).
-3. **Scannez votre badge** ou saisissez le numéro manuellement.
+1. Touchez **Connexion par badge**.
+2. Sélectionnez votre **poste de travail**.
+3. **Scannez votre badge** (ou saisissez le numéro).
 
 <figure class="screenshot terminal" markdown>
-![Sélection du poste de travail](../assets/screenshots/fr/badge-poste.png)
-<figcaption>Sélection du poste de travail avant le scan du badge</figcaption>
+![Sélection du poste](../assets/screenshots/fr/badge-poste.png)
+<figcaption>Choix du poste de travail</figcaption>
 </figure>
 
 <figure class="screenshot terminal" markdown>
-![Saisie du badge opérateur](../assets/screenshots/fr/badge-saisie.png)
-<figcaption>Scan ou saisie du numéro de badge</figcaption>
+![Saisie du badge](../assets/screenshots/fr/badge-saisie.png)
+<figcaption>Scan ou saisie du badge</figcaption>
 </figure>
 
-Une fois identifié, vous accédez à l'**accueil du terminal de pointage**.
+Vous arrivez sur l'**accueil du terminal**.
 
 <figure class="screenshot terminal" markdown>
 ![Accueil du terminal](../assets/screenshots/fr/terminal-accueil.png)
-<figcaption>Accueil du terminal après connexion par badge</figcaption>
+<figcaption>Accueil du terminal de pointage</figcaption>
 </figure>
 
+## Encadrant — par identifiant
+
+Saisissez votre **identifiant** et **mot de passe**, puis **Se connecter**.
+
+<figure class="screenshot" markdown>
+![Connexion par identifiant](../assets/screenshots/fr/login.png)
+<figcaption>Connexion Admin / Superviseur</figcaption>
+</figure>
+
+Vous arrivez sur le **tableau de bord** de votre rôle.
+
 !!! tip "Changer de langue"
-    Le sélecteur de langue (🌐 en haut à droite) permet de basculer entre
-    **français**, **anglais** et **portugais** à tout moment.
+    Le sélecteur 🌐 (en haut à droite) bascule entre français, anglais et
+    portugais.

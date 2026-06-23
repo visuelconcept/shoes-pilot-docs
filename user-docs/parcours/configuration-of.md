@@ -2,73 +2,56 @@
 
 <span class="role-badge">Admin</span> <span class="role-badge">Admin fonctionnel</span>
 
-Un **ordre de fabrication (OF)** représente une commande de production pour un
-modèle/coloris, avec des quantités par taille. Il se subdivise en **sous-OF**
-(lots) pour un suivi granulaire sur le terminal.
+Un **OF** est une commande de production (modèle/coloris, quantités par taille).
+Il se découpe en **sous-OF** (les bacs suivis sur le terminal).
 
-!!! info "OF importés depuis l'ERP"
-    En production, les OF sont **importés depuis l'ERP** (fichiers XML PRIOS,
-    dossier surveillé) et rattachés à leur article du catalogue. La création
-    manuelle se fait depuis la page **Articles** ou **Ordres de fabrication**.
+!!! info "OF importés de l'ERP"
+    En production, les OF arrivent de l'ERP (fichiers XML PRIOS). La création
+    manuelle se fait depuis **Articles** ou **Ordres de fabrication**.
 
-## 1. Liste des ordres de fabrication
+## 1. Liste des OF
 
-La page **Ordres de fabrication** liste les OF avec leur statut, priorité et
-échéance.
+Statut, priorité et échéance de chaque OF.
 
 <figure class="screenshot" markdown>
-![Liste des ordres de fabrication](../assets/screenshots/fr/of-liste.png)
-<figcaption>Liste des ordres de fabrication</figcaption>
+![Liste des OF](../assets/screenshots/fr/of-liste.png)
+<figcaption>Ordres de fabrication</figcaption>
 </figure>
 
 ## 2. Détail d'un OF
 
-La page de détail affiche les **informations produit** (avec photo), la
-**répartition par taille** et la liste des **sous-OF** avec leur statut.
+Produit, répartition par taille et liste des sous-OF.
 
 <figure class="screenshot" markdown>
-![Détail d'un ordre de fabrication](../assets/screenshots/fr/of-detail.png)
-<figcaption>Détail d'un OF : produit, tailles et sous-OF</figcaption>
+![Détail d'un OF](../assets/screenshots/fr/of-detail.png)
+<figcaption>Détail : produit, tailles, sous-OF</figcaption>
 </figure>
 
 ## 3. Générer les sous-OF
 
-Si une **configuration de subdivision** est définie, ouvrez le détail de l'OF et
-cliquez sur **Générer les sous-OF** : le système crée automatiquement les lots
-selon les règles (paires par sous-OF, points de rupture, etc.).
+Ouvrez le détail et touchez **Générer les sous-OF** : les lots sont créés selon
+la configuration de subdivision.
 
 <figure class="screenshot" markdown>
 ![Sous-OF générés](../assets/screenshots/fr/of-sous-of.png)
-<figcaption>Sous-OF générés à partir de l'OF</figcaption>
+<figcaption>Sous-OF générés</figcaption>
 </figure>
 
-## Écrans de configuration métier
+## Référentiels métier
 
-L'administration permet de définir le flux de production et les référentiels.
+L'administration définit le flux et les référentiels : **opérations**, **lignes**,
+**postes**, **équipes**, **modèles**, **motifs de rebut**, **étiquettes**…
 
-=== "Opérations"
+<div class="grid" markdown>
 
-    Définissez les étapes du flux (code, séquence, durée estimée, contrôle
-    qualité requis).
+<figure class="screenshot" markdown>
+![Opérations](../assets/screenshots/fr/admin-operations.png)
+<figcaption>Opérations</figcaption>
+</figure>
 
-    <figure class="screenshot" markdown>
-    ![Administration des opérations](../assets/screenshots/fr/admin-operations.png)
-    <figcaption>Configuration des opérations</figcaption>
-    </figure>
+<figure class="screenshot" markdown>
+![Lignes de production](../assets/screenshots/fr/admin-lignes.png)
+<figcaption>Lignes de production</figcaption>
+</figure>
 
-=== "Lignes de production"
-
-    Regroupez les opérations par zone physique, définissez l'ordre et la ligne
-    par défaut.
-
-    <figure class="screenshot" markdown>
-    ![Administration des lignes](../assets/screenshots/fr/admin-lignes.png)
-    <figcaption>Configuration des lignes de production</figcaption>
-    </figure>
-
-## Autres référentiels
-
-La configuration métier couvre aussi : **postes de travail**, **équipes**,
-**opérateurs**, **modèles**, **configurations de subdivision**, **motifs de
-rebut**, **imprimantes** et **templates d'étiquettes**. Chacun suit la même
-logique : liste, création, édition, désactivation (suppression douce).
+</div>

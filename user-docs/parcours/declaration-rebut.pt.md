@@ -1,78 +1,46 @@
-# Declarar uma rejeição
+# Declarar uma sucata
 
 <span class="role-badge">Operador</span>
 
-Durante um registo, o operador pode declarar uma ou várias peças não conformes.
-O sistema distingue **três tipos** de rejeição e desencadeia automaticamente a
-recuperação do sapato válido sempre que possível.
-
-## Os três tipos de rejeição
+Durante o apontamento, assinale as peças não conformes. Três tipos:
 
 | Tipo | Código | Significado |
 |------|:----:|---------------|
-| **Par completo** | P | Ambos os sapatos (esquerdo + direito) estão defeituosos — sem recuperação |
-| **Esquerdo** | G | Apenas o sapato esquerdo está defeituoso → o **direito** vai para o stock de reintegração |
-| **Direito** | D | Apenas o sapato direito está defeituoso → o **esquerdo** vai para o stock de reintegração |
+| Par | **P** | Ambos os sapatos estão defeituosos |
+| Esquerdo | **G** | Esquerdo defeituoso → o direito vai para o stock de reintegração |
+| Direito | **D** | Direito defeituoso → o esquerdo vai para o stock de reintegração |
 
-## Declarar a rejeição
+## Adicionar a sucata
 
-1. Durante o registo, na secção **Rejeições**, clique em **Adicionar**.
-
-    <figure class="screenshot terminal" markdown>
-    ![Secção Rejeições](../assets/screenshots/pt/rebut-section.png)
-    <figcaption>Secção Rejeições durante o registo</figcaption>
-    </figure>
-
-2. Selecione o **tipo**: G, D ou P.
+1. Secção **Sucatas** → **Adicionar**.
 
     <figure class="screenshot terminal" markdown>
-    ![Escolha do tipo de rejeição](../assets/screenshots/pt/rebut-type.png)
-    <figcaption>Escolha do tipo de rejeição (esquerdo, direito, par)</figcaption>
+    ![Secção Sucatas](../assets/screenshots/pt/rebut-section.png)
+    <figcaption>Secção Sucatas durante o apontamento</figcaption>
     </figure>
 
-3. Ajuste a **quantidade** com os botões +/− e selecione o **motivo**.
+2. Escolha o **tipo** (G / D / P).
+
+    <figure class="screenshot terminal" markdown>
+    ![Tipo de sucata](../assets/screenshots/pt/rebut-type.png)
+    <figcaption>Tipo: esquerdo, direito ou par</figcaption>
+    </figure>
+
+3. Defina a **quantidade** e escolha o **motivo**.
 
     <figure class="screenshot terminal" markdown>
     ![Quantidade e motivo](../assets/screenshots/pt/rebut-motif.png)
-    <figcaption>Quantidade e motivo de não conformidade</figcaption>
+    <figcaption>Quantidade e motivo</figcaption>
     </figure>
 
-4. Clique em **Adicionar a rejeição**.
+4. Toque em **Adicionar a sucata**. Os contadores são atualizados.
 
     <figure class="screenshot terminal" markdown>
-    ![Rejeição adicionada](../assets/screenshots/pt/rebut-ajoute.png)
-    <figcaption>Contadores atualizados após a adição da rejeição</figcaption>
+    ![Sucata adicionada](../assets/screenshots/pt/rebut-ajoute.png)
+    <figcaption>Contadores atualizados</figcaption>
     </figure>
 
-## Recuperação automática
-
-Quando é declarada uma rejeição **Esquerdo** ou **Direito**:
-
-- o sapato defeituoso é contabilizado como rejeição;
-- **o sapato oposto (válido) é automaticamente adicionado ao stock de
-  reintegração**;
-- poderá servir mais tarde para reconstituir um par (mesma OF / mesmo tamanho).
-
-!!! example "Exemplo"
-    Declara **1 rejeição Esquerdo** (motivo: defeito no couro) num lote de
-    10 pares. O sapato **direito** correspondente vai para o stock de
-    reintegração. Noutro lote, uma rejeição Direito poderá ser compensada
-    reintegrando esse direito — reconstituindo assim um par completo.
-
-## Cálculo das quantidades
-
-O sistema garante que a **quantidade de saída está sempre em pares
-completos**:
-
-```text
-Entrada : 10 pares
-- Rejeições de pares   : -2
-- Rejeições esquerdos  : -1  (→ 1 direito ao stock)
-- Rejeições direitos   : -1  (→ compensado por reintegração)
-+ Reintegrações        : +1 direito
-= Saída : 7 pares
-→ Stock de reintegração : +1 direito restante
-```
-
-> A reintegração dos sapatos órfãos é objeto de um percurso dedicado,
-> adicionado posteriormente.
+!!! info "Recuperação automática"
+    Para uma sucata **G** ou **D**, o sapato válido oposto vai automaticamente
+    para o stock de reintegração: poderá reconstituir um par mais tarde (mesmo
+    OF, mesmo tamanho). A saída mantém-se sempre em **pares completos**.

@@ -2,82 +2,58 @@
 
 <span class="role-badge">Opérateur</span>
 
-Le pointage est le geste quotidien de l'opérateur : il déclare le **début** et
-la **fin** d'une opération sur un sous-OF (un bac de paires). Le système
-enregistre la production, met à jour les tableaux de bord en temps réel et fait
-avancer le sous-OF dans le flux de fabrication.
-
-## Vue d'ensemble du parcours
+Déclarez le **début** et la **fin** de votre opération sur un bac. La production
+est enregistrée et le bac avance dans le flux.
 
 ```mermaid
 graph LR
-  A[Accueil terminal] --> B[Scanner un bac]
-  B --> C[Vérifier le sous-OF]
-  C --> D[Démarrer l'opération]
-  D --> E[Travailler]
-  E --> F[Valider]
+  A[Accueil] --> B[Scanner le bac]
+  B --> C[Vérifier] --> D[Démarrer] --> E[Valider]
 ```
 
-## 1. Accueil du terminal
+## 1. Scanner le bac
 
-Après connexion par badge, l'accueil affiche votre **production du jour**, la
-**file d'attente** de votre poste et l'accès au **scan d'un bac**.
+Sur l'accueil, touchez **Scanner un bac**, puis scannez le QR code (ou saisissez
+le numéro).
 
 <figure class="screenshot terminal" markdown>
-![Accueil du terminal de pointage](../assets/screenshots/fr/pointage-accueil.png)
-<figcaption>Accueil : production du jour et file d'attente du poste</figcaption>
+![Accueil du terminal](../assets/screenshots/fr/pointage-accueil.png)
+<figcaption>Accueil : production du jour et file d'attente</figcaption>
 </figure>
 
-## 2. Scanner un bac
+## 2. Vérifier
 
-1. Cliquez sur **Scanner un bac**.
-2. Scannez le **QR code** du bac ou saisissez son numéro.
-
-<figure class="screenshot terminal" markdown>
-![Scan d'un bac](../assets/screenshots/fr/pointage-scan.png)
-<figcaption>Scan du QR code du bac ou saisie manuelle du numéro</figcaption>
-</figure>
-
-## 3. Vérifier le sous-OF
-
-L'écran affiche les informations du bac : **photo** du modèle/coloris,
-**taille**, **quantité** et **numéro d'opération**. Vérifiez que le sous-OF
-correspond bien à votre poste.
+Contrôlez le bac affiché : modèle, taille, quantité, opération.
 
 <figure class="screenshot terminal" markdown>
-![Vérification du sous-OF](../assets/screenshots/fr/pointage-verif.png)
+![Vérification du bac](../assets/screenshots/fr/pointage-verif.png)
 <figcaption>Informations du bac avant démarrage</figcaption>
 </figure>
 
 !!! warning "Mauvaise opération ?"
-    Si le sous-OF n'est pas à votre opération, le système vous avertit : le bac
-    doit d'abord passer par les opérations précédentes.
+    Le système vous bloque si le bac n'est pas à votre poste : il doit passer
+    par les opérations précédentes d'abord.
 
-## 4. Démarrer et travailler
+## 3. Démarrer
 
-Cliquez sur **Démarrer l'opération**. L'écran passe en mode « opération en
-cours » : vous réalisez le travail sur les paires, et pouvez à tout moment
-[déclarer un rebut](declaration-rebut.md).
+Touchez **Démarrer l'opération** et réalisez le travail. Pour signaler une pièce
+défectueuse, voir [Déclarer un rebut](declaration-rebut.md).
 
 <figure class="screenshot terminal" markdown>
 ![Opération en cours](../assets/screenshots/fr/pointage-en-cours.png)
-<figcaption>Opération en cours : compteurs, rebuts et réintégrations</figcaption>
+<figcaption>Opération en cours</figcaption>
 </figure>
 
-## 5. Valider
+## 4. Valider
 
-Cliquez sur **Valider l'opération**. Le système :
-
-- enregistre la production réalisée ;
-- passe au sous-OF suivant en cas de subdivision ;
-- met à jour les tableaux de bord en temps réel ;
-- gère automatiquement le stock de réintégration.
+Touchez **Valider l'opération**. C'est terminé : la production est comptée et le
+bac passe à la suite.
 
 <figure class="screenshot terminal" markdown>
 ![Opération validée](../assets/screenshots/fr/pointage-valide.png)
-<figcaption>Confirmation de validation de l'opération</figcaption>
+<figcaption>Opération validée</figcaption>
 </figure>
 
 !!! tip "Étiquettes"
-    Selon la configuration de l'opération, des étiquettes peuvent s'imprimer
-    automatiquement au démarrage et/ou à la fin du pointage.
+    Certaines opérations impriment automatiquement des étiquettes au démarrage
+    et/ou à la validation.
